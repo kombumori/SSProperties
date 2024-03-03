@@ -83,7 +83,7 @@ Retrieves an array of all keys present in the properties.
 
 Retrieves all properties as an object.
 
-##### `getProperty(key: string): *`
+##### `getProperty(key: string): string`
 
 Retrieves the value of the property with the specified key.
 
@@ -96,7 +96,7 @@ Sets properties from the provided object.
 - `properties`: An object containing key-value pairs of properties.
 - `deleteAllOthers`: Flag indicating whether to delete all other properties before setting new ones (default is `false`).
 
-##### `setProperty(key: string, value: *): SSProperties`
+##### `setProperty(key: string, value: string): SSProperties`
 
 Sets the value of a property with the specified key.
 
