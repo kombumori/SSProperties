@@ -65,7 +65,7 @@ Factory function to create an instance of SSProperties.
 
 - `id`: The ID of the Google Sheets spreadsheet.
 - `name`: The name of the sheet within the spreadsheet.
-- `updateEachTime`: Flag indicating whether to update the sheet each time a property is modified (default is `true`). If this is true, there is no need to `update()` every time.
+- `updateEachTime`: Flag indicating whether to update the sheet each time a property is modified (default is `true`). If this is true, there is no need to `update()` every time. Note that if each `get` method is executed, the sheet will not be updated.
 
 #### `SSProperties` Class
 
