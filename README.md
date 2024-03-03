@@ -25,7 +25,7 @@ Here's how you can use SSProperties in your project:
 1. Initialize SSProperties:
 
 ```javascript
-const properties = SSProperties.getSSProperties('spreadsheet_id', 'sheet_name', updateEachTime = true);
+const properties = SSProperties.getSSProperties('spreadsheet_id', 'sheet_name');
 ```
 
 2. Set properties:
