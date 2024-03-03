@@ -1,4 +1,4 @@
-## SSProperties - Google Sheets Key-Value Database
+## SSProperties - Google Sheets Key-Value Database on Google Apps Script
 
 SSProperties is a Google Apps Script Library designed to manage key-value properties stored within a Google Sheets spreadsheet. It serves as a convenient Key-Value Database solution that integrates seamlessly with Google Sheets, offering functionalities similar to the PropertiesService in Google Apps Script.
 
@@ -109,7 +109,7 @@ Sets the value of a property with the specified key.
 
 ##### `update(): SSProperties`
 
-Forces an update of the Google Sheets spreadsheet with the current properties.
+Forces an update of the Google Sheets spreadsheet with the current properties. If `updateEachTime` is true, there is no need to `update()` every time.
 
 ### License
 
