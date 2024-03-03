@@ -57,7 +57,7 @@ class SSProperties {
   /**
    * Retrieves the value of the property with the specified key.
    * @param {string} key - The key of the property to retrieve.
-   * @returns {*} The value of the property, or null if the property does not exist.
+   * @returns {string} The value of the property, or null if the property does not exist.
    */
   getProperty(key) {
     return this.propertiesMap.get(key) || null;
@@ -79,7 +79,7 @@ class SSProperties {
   /**
    * Sets the value of a property with the specified key.
    * @param {string} key - The key of the property to set.
-   * @param {*} value - The value to set for the property.
+   * @param {string} value - The value to set for the property.
    * @returns {SSProperties} The SSProperties instance for method chaining.
    */
   setProperty(key, value) {
