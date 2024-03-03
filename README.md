@@ -13,7 +13,9 @@ SSProperties is a Google Apps Script Library designed to manage key-value proper
 To integrate SSProperties into your Google Sheets project, follow these steps:
 
 1. Import SSProperties library and select latest version
+
 Library ID : `1Ps1uMS5O65dsidmhs4TJZS5b6OVCiuqcFEuAE1iGhwO_huOF6JCb7IId`
+
 2. Ensure your Google Apps Script project is linked to your Google Sheets spreadsheet.
 
 ### Usage
@@ -65,7 +67,7 @@ Factory function to create an instance of SSProperties.
 
 - `id`: The ID of the Google Sheets spreadsheet.
 - `name`: The name of the sheet within the spreadsheet.
-- `updateEachTime`: Flag indicating whether to update the sheet each time a property is modified (default is `true`). If this is true, there is no need to `update()` every time. Note that if each `get` method is executed, the sheet will not be updated.
+- `updateEachTime`: Flag indicating whether to update the sheet each time a property is modified (default is `true`). If this is true, there is no need to `update()` every time. **Note that if each `get` method is executed, the sheet will not be updated.**
 
 #### `SSProperties` Class
 
